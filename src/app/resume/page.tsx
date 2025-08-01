@@ -1,3 +1,3 @@
-export function Resume() {
+export default function Resume() {
  return <div>resume sayda divi</div>
 }
