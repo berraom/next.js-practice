@@ -8,10 +8,10 @@ const Header = () => {
           <h1 className="header2"> WELCOME TO MY WORLD</h1>
         </div>
         <div className="intro">
-          <h1 className="header3"> Hi,I’m</h1>
-          <h1 className="header3-name"> Ayberk Çakar </h1>
-          <h1 className="header3">a Software Engineer.</h1>
-        </div>
+  <h1 className="header3">
+    Hi, I’m <span className="name">Ayberk Çakar</span>, a Software Engineer.
+  </h1>
+</div>
 
 
 
