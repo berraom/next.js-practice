@@ -1,5 +1,7 @@
 import Image from "next/image";
-import { FaInstagram, FaLinkedin, FaGithub, FaMedium, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faTwitter, faInstagram, faLinkedin, faYoutube, } from '@fortawesome/free-brands-svg-icons';
+import { faMediumM } from "@fortawesome/free-brands-svg-icons/faMediumM";
 const Header = () => {
   return (
     <div className="all-items">
@@ -34,22 +36,22 @@ const Header = () => {
           <h3 className="header4">FIND ME</h3>
           <div className="socials">
           <a href="https://www.instagram.com/ayberkcakar/" target="_blank" rel="noopener noreferrer">
-            <FaInstagram size={40} className="icon" />
+            <FontAwesomeIcon icon={faInstagram}  className="icon"/>
           </a>
           <a href="https://www.linkedin.com/in/ayberkcakar/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin size={40} className="icon" />
+            <FontAwesomeIcon icon={faLinkedin}  className="icon"/>
           </a>
           <a href="https://github.com/AyberkCakar" target="_blank" rel="noopener noreferrer">
-            <FaGithub size={40} className="icon" />
+            <FontAwesomeIcon icon={faGithub}  className="icon"/>
           </a>
           <a href="https://x.com/ayberkcakar" target="_blank" rel="noopener noreferrer">
-            <FaTwitter size={40} className="icon" />
+            <FontAwesomeIcon icon={faTwitter}  className="icon"/>
           </a>
           <a href="https://ayberkcakar.medium.com/" target="_blank" rel="noopener noreferrer">
-            <FaMedium size={40} className="icon" />
+            <FontAwesomeIcon icon={faMediumM}  className="icon"/>
           </a>
           <a href="https://youtube.com/@ayberkcakar" target="_blank" rel="noopener noreferrer">
-            <FaYoutube size={40} className="icon" />
+            <FontAwesomeIcon icon={faYoutube}  className="icon"/>
           </a>
           </div>
 
