@@ -8,8 +8,7 @@ export default function Home() {
     <>
     <main className='main'>
       <Header />
-      <About />
-      <Socials />
+      
       
       
     </main>

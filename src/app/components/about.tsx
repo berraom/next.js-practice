@@ -1,11 +1,7 @@
 import Image from "next/image";
-
-
-
-
 const   About = () => {
     return (
-        <div>
+        <div className="about">
         
         
         <div className="paraghraph">
@@ -21,7 +17,7 @@ const   About = () => {
             </div>
         
         <div className="image">
-            <Image className="picture" src="/ayberk.jpg" alt="Ayberk Çakar" width={300} height={300} />
+            <Image className="pictures" src="/ayberk.jpg" alt="Ayberk Çakar" width={300} height={300} />
          </div>
        
         </div>

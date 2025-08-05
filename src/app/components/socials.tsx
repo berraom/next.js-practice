@@ -3,7 +3,7 @@ import { FaInstagram, FaLinkedin, FaGithub, FaMedium, FaYoutube, FaTwitter } fro
 const SocialLinks = () => {
   return (
     
-    <div className="mt-10 flex gap-6 justify-center">
+    <div className="icons">
         <h3>FIND ME</h3>
       <a href="https://www.instagram.com/ayberkcakar/" target="_blank" rel="noopener noreferrer">
         <FaInstagram size={30} className="icon" />
@@ -23,9 +23,7 @@ const SocialLinks = () => {
       <a href="https://youtube.com/@ayberkcakar" target="_blank" rel="noopener noreferrer">
         <FaYoutube size={30} className="icon" />
       </a>
-      <a href="https://youtube.com/@ayberkcakar" target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={30} className="icon" />
-      </a>
+      
     </div>
   );
 };
