@@ -13,7 +13,7 @@
   flex-direction: row;     
   justify-content: center; 
   align-items: center;     
-  gap: 20px;       
+  gap: 10px;       
 }
 .header1 {
 display: flex;
@@ -67,8 +67,8 @@ display: flex;
   flex-wrap:wrap;
   box-sizing: border-box;
   padding-right:100px;
-  min-width: 300px;
-  max-width: 600px;
+  min-width: 400px;
+  max-width: 900px;
 }
 
 .paragraph p {
@@ -108,7 +108,7 @@ display: flex;
   .picture {
    height: 500px;
    width:400px;
-   margin-right:150px;
+   margin-right:100px;
 
    
   }
