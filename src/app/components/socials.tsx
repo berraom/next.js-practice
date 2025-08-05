@@ -6,25 +6,25 @@ const SocialLinks = () => {
     <div className="mt-10 flex gap-6 justify-center">
         <h3>FIND ME</h3>
       <a href="https://www.instagram.com/ayberkcakar/" target="_blank" rel="noopener noreferrer">
-        <FaInstagram size={30} className="hover:text-pink-500 transition" />
+        <FaInstagram size={30} className="icon" />
       </a>
       <a href="https://www.linkedin.com/in/ayberkcakar/" target="_blank" rel="noopener noreferrer">
-        <FaLinkedin size={30} className="hover:text-blue-500 transition" />
+        <FaLinkedin size={30} className="icon" />
       </a>
       <a href="https://github.com/AyberkCakar" target="_blank" rel="noopener noreferrer">
-        <FaGithub size={30} className="hover:text-gray-300 transition" />
+        <FaGithub size={30} className="icon" />
       </a>
       <a href="https://x.com/ayberkcakar" target="_blank" rel="noopener noreferrer">
-        <FaTwitter size={30} className="hover:text-red-500 transition" />
+        <FaTwitter size={30} className="icon" />
       </a>
       <a href="https://ayberkcakar.medium.com/" target="_blank" rel="noopener noreferrer">
-        <FaMedium size={30} className="hover:text-white transition" />
+        <FaMedium size={30} className="icon" />
       </a>
       <a href="https://youtube.com/@ayberkcakar" target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={30} className="hover:text-red-500 transition" />
+        <FaYoutube size={30} className="icon" />
       </a>
       <a href="https://youtube.com/@ayberkcakar" target="_blank" rel="noopener noreferrer">
-        <FaYoutube size={30} className="hover:text-red-500 transition" />
+        <FaYoutube size={30} className="icon" />
       </a>
     </div>
   );
