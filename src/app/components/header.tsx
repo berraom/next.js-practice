@@ -9,8 +9,11 @@ const Header = () => {
         </div>
         <div className="intro">
   <h1 className="header3">
-    Hi, I’m <span className="name">Ayberk Çakar</span>, a Software Engineer.
+    Hi, I’m <span className="name">Ayberk Çakar</span>
+  <br />
+  a
   </h1>
+  
 </div>
 
 
