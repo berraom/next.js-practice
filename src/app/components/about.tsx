@@ -21,11 +21,14 @@ const   About = () => {
             </div>
         
         <div className="image">
-            <Image className="picture" src="/ayberk.jpg" alt="Ayberk Çakar"/>
-        </div>
+            <Image className="picture" src="/ayberk.jpg" alt="Ayberk Çakar" width={300} height={300} />
+         </div>
+       
         </div>
     );
 };
 
 export default About;
+
+
    
